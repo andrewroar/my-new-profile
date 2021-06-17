@@ -1,0 +1,210 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+nav {
+  display: grid;
+  place-content: center;
+  background-image: url("../static/manchester-background.jpg");
+  height: 700px;
+  overflow: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.nav-icon {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+nav h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+nav div a button {
+  padding: 10px 20px;
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  background-color: #800006;
+  font-size: 16px;
+}
+
+main {
+  background: linear-gradient(#1f1f7a, #dbdbe4);
+}
+
+.get-touched {
+  display: grid;
+  place-content: center;
+  margin-bottom: 200px;
+  grid-template-columns: 1fr;
+  grid-row: 1;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.get-touched h1 {
+  color: white;
+}
+
+.get-touched button {
+  padding: 10px 20px;
+  width: 200px;
+  height: 70px;
+  color: #ffffff;
+  border-radius: 15px;
+  background-color: #800006;
+  font-size: 16px;
+}
+
+.who-am-i {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 30px;
+}
+
+.who-am-i-pic {
+  background-image: url("../static/my_profile.jpg");
+  height: 40%;
+  width: 30%;
+  min-height: 400px;
+  min-width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.why-me {
+  width: 80%;
+  margin: auto;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 30px;
+}
+
+.why-me-pic {
+  background-image: url("../static/my_profile_2.jpg");
+  height: 40%;
+  width: 30%;
+  min-height: 400px;
+  min-width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.who-am-i p,
+.why-me p {
+  content: center;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.why-me h2,
+.who-am-i h2 {
+  content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.border-button {
+  border: solid 0px #ffffff;
+  transition: border-width 0.1s linear;
+}
+
+.border-button:hover {
+  border-width: 5px;
+}
+
+@media only screen and (max-width: 850px) {
+  .who-am-i,
+  .why-me {
+    width: 100%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+/*==============Footer=================*/
+
+footer {
+  background-color: #98fb98;
+  border-top: solid 3px grey;
+}
+
+.footer-div {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*==============Effect=================*/
+
+.fade-in-effect {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
