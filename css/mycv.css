@@ -96,6 +96,7 @@ nav div a button {
 .content-grid li {
   margin: 0px 0 30px 0;
   font-size: 25px;
+  word-wrap: break-word;
 }
 
 .content-grid p,
